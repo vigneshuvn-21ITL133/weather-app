@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="flex-container">
+        <form id="search-form">
+           <center> <input type="text" id="search-input" placeholder="Enter the location">
+            <button type="submit" id="search-button">Search</button></center>
+        </form>
+    </div>
+
+    <div class="container">
+        <center><h3 id="searched-city">Vellankovil</h3></center>
+        <div class="flex-container-item">
+
+          <center><li>Temperature<p id="current-temperature">4°</p></li></center>
+            <center><li>Time<p id="current-time">10:00</p></li></center>
+            <center><li>Day<p id="current-day">Today</p></li></center>
+            <center><li>weather-type<p id="weather-type">Windy</p></li></center>
+            <center> <li>humidity<p id="humidity">20%</p></li></center>
+                <center><li>wind<p id="wind">2km/hr</p></li></center>
+        </div>   
+    <footer>
+        <center>
+            <p class="items">Vigneshu-21ITL133</p>
+        </center>
+    </footer>
+    </div> 
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</body>
+</html>
+
+
+
