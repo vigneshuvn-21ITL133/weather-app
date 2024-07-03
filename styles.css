@@ -45,7 +45,7 @@ h3{
     justify-content: center;
     border-color: rgb(242, 239, 239);
     border-style:ridge;
-    gap:11%;
+    gap:10%;
     margin: 10%;
     border-radius: 20px;
 }
@@ -63,7 +63,7 @@ li{
     font-family: "Teko", sans-serif;
     font-size: 1.8rem;
     color: rgb(245, 40, 4);
-     margin: 5px;
+    margin: 5px;
    
 }
 
@@ -74,4 +74,13 @@ li{
 button:hover:active{
     background-color: rgb(4, 30, 205);
     
+}
+
+a{
+    font-family: "Teko", sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    justify-content: space-between;
+    margin-top: 10px;   
 }
